@@ -1,0 +1,308 @@
+{
+  "name": "Mobile Learning",
+  "children": [
+    {
+      "name": "Pedagogical",
+      "children": [
+        {
+          "name": "Learning",
+          "children": [
+            {
+              "name": "Learning limitations"
+            },
+            {
+              "name": "Learning style"
+            },
+            {
+              "name": "Teaching and learning processes"
+            },
+            {
+              "name": "Knowledge effectiveness"
+            },
+            {
+              "name": "Knowledge at the right time"
+            },
+            {
+              "name": "Educational activities"
+            },
+            {
+              "name": "Adaptation to the context"
+            },
+            {
+              "name": "Motivation"
+            },
+            {
+              "name": "Engagement"
+            },
+            {
+              "name": "Creativity"
+            },
+            {
+              "name": "Progress monitoring"
+            }
+          ]
+        },
+        {
+          "name": "Content",
+          "children": [
+            {
+              "name": "Quality of content"
+            },
+            {
+              "name": "Target audience"
+            },
+            {
+              "name": "Multimedia complexity"
+            },
+            {
+              "name": "Content source"
+            },
+            {
+              "name": "Content management"
+            },
+            {
+              "name": "Content integration"
+            },
+            {
+              "name": "Didactic resources"
+            },
+            {
+              "name": "Content reuse"
+            },
+            {
+              "name": "Content complexity"
+            }
+          ]
+        },
+        {
+          "name": "Interactivity",
+          "children": [
+            {
+              "name": "Feedback"
+            },
+            {
+              "name": "Communication among users"
+            },
+            {
+              "name": "Collaboration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Social",
+      "children": [
+        {
+          "name": "Socioeconomic",
+          "children": [
+            {
+              "name": "Cost of the development of the learning material"
+            },
+            {
+              "name": "Time for the development of the learning material"
+            },
+            {
+              "name": "Service level"
+            },
+            {
+              "name": "Trial period"
+            },
+            {
+              "name": "Support"
+            }
+          ]
+        },
+        {
+          "name": "Sociocultural",
+          "children": [
+            {
+              "name": "User's profile"
+            },
+            {
+              "name": "User's satisfaction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Technical",
+      "children": [
+        {
+          "name": "Functional Suitability",
+          "children": [
+            {
+              "name": "Communication capacity"
+            },
+            {
+              "name": "Multimedia resources"
+            },
+            {
+              "name": "Network bandwidth variation"
+            },
+            {
+              "name": "Separate views"
+            },
+            {
+              "name": "Functional completeness"
+            }
+          ]
+        },
+        {
+          "name": "Performance Efficiency",
+          "children": [
+            {
+              "name": "Data transfer"
+            },
+            {
+              "name": "Behavior in relation to time"
+            },
+            {
+              "name": "Application size"
+            },
+            {
+              "name": "Memory use efficiency"
+            },
+            {
+              "name": "Energy consumption efficiency"
+            },
+            {
+              "name": "Memory cleaning"
+            },
+            {
+              "name": "Scalability"
+            },
+            {
+              "name": "Minimum requirements"
+            }
+          ]
+        },
+        {
+          "name": "Compatibility",
+          "children": [
+            {
+              "name": "Application coexistence"
+            },
+            {
+              "name": "Interoperability"
+            }
+          ]
+        },
+        {
+          "name": "Usability",
+          "children": [
+            {
+              "name": "Inteligibility"
+            },
+            {
+              "name": "Screen loading"
+            },
+            {
+              "name": "Easy form filling"
+            },
+            {
+              "name": "Navigability"
+            },
+            {
+              "name": "Continuity"
+            },
+            {
+              "name": "Diversity of devices"
+            },
+            {
+              "name": "Screens per task"
+            },
+            {
+              "name": "Information presentation"
+            },
+            {
+              "name": "Homogeneity of layout and components"
+            },
+            {
+              "name": "Attractiveness"
+            },
+            {
+              "name": "Protection against user's error"
+            },
+            {
+              "name": "Audiovisual quality"
+            },
+            {
+              "name": "Accessibility"
+            },
+            {
+              "name": "Help"
+            },
+            {
+              "name": "Concise messages"
+            }
+          ]
+        },
+        {
+          "name": "Reliability",
+          "children": [
+            {
+              "name": "Stability"
+            },
+            {
+              "name": "Availability"
+            },
+            {
+              "name": "Recovery time after disconnection"
+            },
+            {
+              "name": "Data transfer"
+            },
+            {
+              "name": "Accuracy"
+            },
+            {
+              "name": "Recoverability"
+            },
+            {
+              "name": "Fault tolerance"
+            }
+          ]
+        },
+        {
+          "name": "Security",
+          "children": [
+            {
+              "name": "Confidentiality"
+            },
+            {
+              "name": "Encryption"
+            },
+            {
+              "name": "Integrity"
+            },
+            {
+              "name": "Auditing"
+            },
+            {
+              "name": "Traceability"
+            },
+            {
+              "name": "Authenticity"
+            }
+          ]
+        },
+        {
+          "name": "Portability",
+          "children": [
+            {
+              "name": "Adaptability"
+            },
+            {
+              "name": "Installability"
+            },
+            {
+              "name": "Replaceability"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
