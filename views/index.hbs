@@ -6,7 +6,7 @@
             left: 120
         },
         width = 960 - margin.right - margin.left,
-        height = 800 - margin.top - margin.bottom;
+        height = 1080 - margin.top - margin.bottom;
 
     var i = 0,
         duration = 750,
@@ -20,11 +20,16 @@
             return [d.y, d.x];
         });
 
-    var svg = d3.select("body").append("svg")
+    var svg = d3.select("body>div").append("svg")
         .attr("width", width + margin.right + margin.left)
         .attr("height", height + margin.top + margin.bottom)
         .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+    // Add tooltip div
+    var div = d3.select("body>div").append("div")
+        .attr("class", "tooltip")
+        .style("opacity", 1e-6);
 
     d3.json("javascripts/data.json", function(error, flare) {
         if (error) throw error;
@@ -41,11 +46,11 @@
             }
         }
 
-        root.children.forEach(collapse);
+        // root.children.forEach(collapse);
         update(root);
     });
 
-    d3.select(self.frameElement).style("height", "800px");
+    d3.select(self.frameElement).style("height", "1080px");
 
     function update(source) {
 
@@ -73,9 +78,16 @@
             .on("click", click);
 
         nodeEnter.append("circle")
+            .on("mouseover", function(d) {
+                mouseover(d);
+            })
+            .on("mousemove", function(d) {
+                mousemove(d);
+            })
+            .on("mouseout", mouseout)
             .attr("r", 1e-6)
             .style("fill", function(d) {
-                return d._children ? "lightsteelblue" : "#fff";
+                return d._children ? "#B0BEC5" : "#fff";
             });
 
         nodeEnter.append("text")
@@ -101,7 +113,7 @@
         nodeUpdate.select("circle")
             .attr("r", 4.5)
             .style("fill", function(d) {
-                return d._children ? "lightsteelblue" : "#fff";
+                return d._children ? "#B0BEC5" : "#fff";
             });
 
         nodeUpdate.select("text")
@@ -177,6 +189,27 @@
             d.children = d._children;
             d._children = null;
         }
+        mouseout();
         update(d);
+    }
+
+    function mouseover(d) {
+        if (d.info) {
+            div.transition()
+                .duration(300)
+                .style("opacity", 1);
+        }
+    }
+
+    function mousemove(d) {
+        div.text(d.info)
+            .style("left", (d3.event.pageX) + "px")
+            .style("top", (d3.event.pageY) + "px");
+    }
+
+    function mouseout(d) {
+        div.transition()
+            .duration(300)
+            .style("opacity", 1e-6);
     }
 </script>

@@ -1,90 +1,118 @@
 {
   "name": "Mobile Learning",
+  "info": "",
   "children": [
     {
       "name": "Pedagogical",
+      "info": "",
       "children": [
         {
           "name": "Learning",
+          "info": "",
           "children": [
             {
-              "name": "Learning limitations"
+              "name": "Learning limitations",
+              "info": "Ability to help the identification of knowledge gaps."
             },
             {
-              "name": "Learning style"
+              "name": "Learning style",
+              "info": "Identification of different learner's learning profiles (auditory, visual and kinesthetic)."
             },
             {
-              "name": "Teaching and learning processes"
+              "name": "Teaching and learning processes",
+              "info": "Well defined teaching and learning processes used."
             },
             {
-              "name": "Knowledge effectiveness"
+              "name": "Knowledge effectiveness",
+              "info": "Ability to evaluate the user's effective knowledge acquisition."
             },
             {
-              "name": "Knowledge at the right time"
+              "name": "Knowledge at the right time",
+              "info": "Content offered at the correct stage of learning, for the avoidance of a very advanced content that depends on non-gained knowledge."
             },
             {
-              "name": "Educational activities"
+              "name": "Educational activities",
+              "info": "Different types of activities related to education, that enable, for instance, knowledge acquisition, guidance from a tutor, instructions that guide the user during learning."
             },
             {
-              "name": "Adaptation to the context"
+              "name": "Adaptation to the context",
+              "info": "Ability to adapt to the user's context taking into account age, gender, education, physical conditions of the environment, among other context factors."
             },
             {
-              "name": "Motivation"
+              "name": "Motivation",
+              "info": "Stimuli through which the user acts in relation to knowledge acquisition."
             },
             {
-              "name": "Engagement"
+              "name": "Engagement",
+              "info": "Functional commitment to roles and responsibilities for the achievement of a goal associated with emotional involvement for the development of such activities."
             },
             {
-              "name": "Creativity"
+              "name": "Creativity",
+              "info": "Ability to solve tasks and develop ideas differently from the normal pattern for the establishment of a certain purpose."
             },
             {
-              "name": "Progress monitoring"
+              "name": "Progress monitoring",
+              "info": "Use of a set of information on day-to-day teaching and learning and summative assessments for an overview of the learner’s progress."
             }
           ]
         },
         {
           "name": "Content",
+          "info": "",
           "children": [
             {
-              "name": "Quality of content"
+              "name": "Quality of content",
+              "info": "Quality content related to situations and problems of learner's interest which is free of misspellings and contains no invasive, negative or discriminating messages."
             },
             {
-              "name": "Target audience"
+              "name": "Target audience",
+              "info": "Society sector with some common characteristics (age, gender, profession, interests, etc.) to which the application is devoted."
             },
             {
-              "name": "Multimedia complexity"
+              "name": "Multimedia complexity",
+              "info": "Definition of a limit of multimedia elements that do not distract the user."
             },
             {
-              "name": "Content source"
+              "name": "Content source",
+              "info": "All available content must be provided by a reliable source."
             },
             {
-              "name": "Content management"
+              "name": "Content management",
+              "info": "Control, management and monitoring of the content offered."
             },
             {
-              "name": "Content integration"
+              "name": "Content integration",
+              "info": "Integration of contents, for a defined flow among them."
             },
             {
-              "name": "Didactic resources"
+              "name": "Didactic resources",
+              "info": "Didactic resources that assist the learning process."
             },
             {
-              "name": "Content reuse"
+              "name": "Content reuse",
+              "info": "Ability to reuse content."
             },
             {
-              "name": "Content complexity"
+              "name": "Content complexity",
+              "info": "Gradual adaptation of the content complexity according to the user's level, so that a complex content does not become an obstacle to users' understanding."
             }
           ]
         },
         {
           "name": "Interactivity",
+          "info": "",
           "children": [
             {
-              "name": "Feedback"
+              "name": "Feedback",
+              "info": "Ability to enable reciprocal feedback between students and teachers."
             },
             {
-              "name": "Communication among users"
+              "name": "Communication among users",
+              "info": "Communication among users (learners, tutors and/or teachers) through blogs, forums, groups, and other media."
             },
             {
-              "name": "Collaboration"
+              "name": "Collaboration",
+              "info": "Collaboration in activities  for the interaction among learners, tutors and teachers through wiki, games, microblogs, forums and groups."
             }
           ]
         }
@@ -92,35 +120,45 @@
     },
     {
       "name": "Social",
+      "info": "",
       "children": [
         {
           "name": "Socioeconomic",
+          "info": "",
           "children": [
             {
-              "name": "Cost of the development of the learning material"
+              "name": "Cost of the development of the learning material",
+              "info": "Reduction in the learning material creation costs, since they directly influence the application costs and user's investment."
             },
             {
-              "name": "Time for the development of the learning material"
+              "name": "Time for the development of the learning material",
+              "info": "Adoption of mechanisms that facilitate the creation of learning materials for reductions in the development time."
             },
             {
-              "name": "Service level"
+              "name": "Service level",
+              "info": "Establishment of service levels for a safer use of applications and their continuity: (i) continuity plan: recovery strategies and procedures of m-learning environments for the avoidance of interruption of learning practices; (ii) service-level agreement: agreement based on number of participants and materials and application functionalities; and (iii) cost-benefit: viability achieved by low development, acquisition and maintenance costs."
             },
             {
-              "name": "Trial period"
+              "name": "Trial period",
+              "info": "Availability of a trial period of the application or permission to access the basic functionality to allow the user to try the application before the acquisition."
             },
             {
-              "name": "Support"
+              "name": "Support",
+              "info": "Support to users regarding the services offered by the application."
             }
           ]
         },
         {
           "name": "Sociocultural",
+          "info": "",
           "children": [
             {
-              "name": "User's profile"
+              "name": "User's profile",
+              "info": "Application configurability for treating different possible limitations according to age, gender, religion, race, and other user's characteristics."
             },
             {
-              "name": "User's satisfaction"
+              "name": "User's satisfaction",
+              "info": "Satisfaction of user's expectations for the avoidance of abandonment and discomfort during the use of the application."
             }
           ]
         }
@@ -128,177 +166,231 @@
     },
     {
       "name": "Technical",
+      "info": "",
       "children": [
         {
           "name": "Functional Suitability",
+          "info": "",
           "children": [
             {
-              "name": "Communication capacity"
+              "name": "Communication capacity",
+              "info": "Ability of data transmission between devices."
             },
             {
-              "name": "Multimedia resources"
+              "name": "Multimedia resources",
+              "info": "Ability to support different types of media, such as video, text, audio, among others."
             },
             {
-              "name": "Network bandwidth variation"
+              "name": "Network bandwidth variation",
+              "info": "Ability to adapt to bandwidth variation of the network."
             },
             {
-              "name": "Separate views"
+              "name": "Separate views",
+              "info": "Supply of different views according to the user's profile (e.g.: teacher, student)"
             },
             {
-              "name": "Functional completeness"
+              "name": "Functional completeness",
+              "info": "Ability to provide all features expected by users."
             }
           ]
         },
         {
           "name": "Performance Efficiency",
+          "info": "",
           "children": [
             {
-              "name": "Data transfer"
+              "name": "Data transfer",
+              "info": "Ability of data minimization for improving transfer time of connections and number of data transfered."
             },
             {
-              "name": "Behavior in relation to time"
+              "name": "Behavior in relation to time",
+              "info": "User's waiting time for the full loading of the requested information."
             },
             {
-              "name": "Application size"
+              "name": "Application size",
+              "info": "Amount of space required for the application to be used in the device."
             },
             {
-              "name": "Memory use efficiency"
+              "name": "Memory use efficiency",
+              "info": "Use of techniques that optimize the use of the device's memory."
             },
             {
-              "name": "Energy consumption efficiency"
+              "name": "Energy consumption efficiency",
+              "info": "Efficient use of energy, given the limitations of the devices' batteries."
             },
             {
-              "name": "Memory cleaning"
+              "name": "Memory cleaning",
+              "info": "Non storage of unnecessary data in the device, e. g. files no longer used by the application."
             },
             {
-              "name": "Scalability"
+              "name": "Scalability",
+              "info": "Ability to handle a growing amount of work."
             },
             {
-              "name": "Minimum requirements"
+              "name": "Minimum requirements",
+              "info": "Compliance with the minimum requirements, so that the application is used with no loss of performance."
             }
           ]
         },
         {
           "name": "Compatibility",
+          "info": "",
           "children": [
             {
-              "name": "Application coexistence"
+              "name": "Application coexistence",
+              "info": "Ability to execute multiple instances simultaneously without affecting other applications."
             },
             {
-              "name": "Interoperability"
+              "name": "Interoperability",
+              "info": "Ability of expansion of an application through communication with other applications."
             }
           ]
         },
         {
           "name": "Usability",
+          "info": "",
           "children": [
             {
-              "name": "Inteligibility"
+              "name": "Inteligibility",
+              "info": "Easy understanding of the key concepts of the use software and its use influenced by time and user's cognitive efforts towards learning the application use."
             },
             {
-              "name": "Screen loading"
+              "name": "Screen loading",
+              "info": "Amount of information and elements on a screen."
             },
             {
-              "name": "Easy form filling"
+              "name": "Easy form filling",
+              "info": "Ability to facilitate the filling of data by user. The number of fields for data entry in the application is taken into consideration. Screen and keyboard limitations hamper the entry of data."
             },
             {
-              "name": "Navigability"
+              "name": "Navigability",
+              "info": "Easy access to content and activities."
             },
             {
-              "name": "Continuity"
+              "name": "Continuity",
+              "info": "Application flow which avoids navigation constraints."
             },
             {
-              "name": "Diversity of devices"
+              "name": "Diversity of devices",
+              "info": "Variety of devices, which improves exclusive usability according to the device used (example: Android x iOS back button)."
             },
             {
-              "name": "Screens per task"
+              "name": "Screens per task",
+              "info": "Number of screens used in a task."
             },
             {
-              "name": "Information presentation"
+              "name": "Information presentation",
+              "info": "Limitation of information according to the screen display area."
             },
             {
-              "name": "Homogeneity of layout and components"
+              "name": "Homogeneity of layout and components",
+              "info": "Standardization of the appearance of components through the keeping of their characteristics for all application screens and standardization of the components due to the several types of components that provide the same functionality."
             },
             {
-              "name": "Attractiveness"
+              "name": "Attractiveness",
+              "info": "Attractive and motivating application to the users."
             },
             {
-              "name": "Protection against user's error"
+              "name": "Protection against user's error",
+              "info": "User's protection against mistakes (example: inclusion of validations in open input fields)."
             },
             {
-              "name": "Audiovisual quality"
+              "name": "Audiovisual quality",
+              "info": "Use of quality media for the promotion of learning."
             },
             {
-              "name": "Accessibility"
+              "name": "Accessibility",
+              "info": "Accessibility mechanisms used by people with special needs."
             },
             {
-              "name": "Help"
+              "name": "Help",
+              "info": "Help to users regarding use of the application."
             },
             {
-              "name": "Concise messages"
+              "name": "Concise messages",
+              "info": "Accurate and easy-to-understand application operational messages that speed up communication."
             }
           ]
         },
         {
           "name": "Reliability",
+          "info": "",
           "children": [
             {
-              "name": "Stability"
+              "name": "Stability",
+              "info": "Absence of defects in the application."
             },
             {
-              "name": "Availability"
+              "name": "Availability",
+              "info": "Availability and accessibility anytime and anywhere."
             },
             {
-              "name": "Recovery time after disconnection"
+              "name": "Recovery time after disconnection",
+              "info": "Connection reestablishment after disconnection. The operation is maintained, despite unexpected interruptions."
             },
             {
-              "name": "Data transfer"
+              "name": "Data transfer",
+              "info": "Data transfer, despite the occurrence of disconnections. The application must ensure data will not be lost, although the transfer is not possible, "
             },
             {
-              "name": "Accuracy"
+              "name": "Accuracy",
+              "info": "Supply of accurate and error-free results."
             },
             {
-              "name": "Recoverability"
+              "name": "Recoverability",
+              "info": "Automatic or user-option saving of Backup points in case of low battery."
             },
             {
-              "name": "Fault tolerance"
+              "name": "Fault tolerance",
+              "info": "Reaction to an anomalous situation, ie, the application continues to run despite possible failures."
             }
           ]
         },
         {
           "name": "Security",
+          "info": "",
           "children": [
             {
-              "name": "Confidentiality"
+              "name": "Confidentiality",
+              "info": "Secure and private access for authorized users and applications."
             },
             {
-              "name": "Encryption"
+              "name": "Encryption",
+              "info": "Use of encryption in sensitive data transferred and stored by the application (e.g. passwords or user documents)."
             },
             {
-              "name": "Integrity"
+              "name": "Integrity",
+              "info": "Use of different user's profiles, which restricts the access to certain features of the application."
             },
             {
-              "name": "Auditing"
+              "name": "Auditing",
+              "info": "Record of each action in the application, which assists in the non-deniel of action if the user denies it."
             },
             {
-              "name": "Traceability"
+              "name": "Traceability",
+              "info": "Storage of records of events occurred in the application for the tracking of the user-made paths."
             },
             {
-              "name": "Authenticity"
+              "name": "Authenticity",
+              "info": "Guarantee of user's actions authenticity "
             }
           ]
         },
         {
           "name": "Portability",
+          "info": "",
           "children": [
             {
-              "name": "Adaptability"
+              "name": "Adaptability",
+              "info": "Ability of application to adapt to different types of mobile devices."
             },
             {
-              "name": "Installability"
+              "name": "Installability",
+              "info": "Ability of application to be installed and uninstalled in different mobile devices with no errors."
             },
             {
-              "name": "Replaceability"
+              "name": "Replaceability",
+              "info": "Quick and automatic update and configuration."
             }
           ]
         }
