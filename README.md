@@ -1,4 +1,4 @@
-# Req-mLearning (Showcase Repository)
+# ReqML-Catalog (Showcase Repository)
 
 A Requirements Catalog for Mobile Learning Applications.
 
