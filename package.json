@@ -2,8 +2,13 @@
   "name": "req-mlearning",
   "version": "1.0.0",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/falvojr/reqml-catalog.git"
+  },
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "pm2 start ./bin/www",
+    "stop": "pm2 stop www"
   },
   "dependencies": {
     "body-parser": "~1.15.2",
