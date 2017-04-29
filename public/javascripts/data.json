@@ -329,8 +329,8 @@
               "info": "Connection reestablishment after disconnection. The operation is maintained, despite unexpected interruptions."
             },
             {
-              "name": "Data transfer",
-              "info": "Data transfer, despite the occurrence of disconnections. The application must ensure data will not be lost, although the transfer is not possible, "
+              "name": "Data transfer guarantee",
+              "info": "Data transfer guarantee, despite the occurrence of disconnections. The application must ensure data will not be lost, although the transfer is not possible, "
             },
             {
               "name": "Accuracy",
