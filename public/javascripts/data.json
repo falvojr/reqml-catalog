@@ -364,7 +364,7 @@
             },
             {
               "name": "Auditing",
-              "info": "Record of each action in the application, which assists in the non-deniel of action if the user denies it."
+              "info": "Record of each action in the application, which assists in the non-denial of action if the user denies it."
             },
             {
               "name": "Traceability",
